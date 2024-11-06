@@ -3,6 +3,8 @@ import axios from 'axios';
 import Connection from './DB/db.js';
 import router from './Routes/routes.js';
 import bodyParser from "body-parser";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 
