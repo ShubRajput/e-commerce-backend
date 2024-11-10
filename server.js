@@ -17,5 +17,4 @@ app.listen(PORT, () => {
 
 Connection();
 
-
-app.use('/api/v0', router);
+app.use('/', router);

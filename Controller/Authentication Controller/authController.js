@@ -1,6 +1,6 @@
 // controllers/authController.js
 import { Error } from 'mongoose';
-import User from '../../Models/User.js';
+import {User} from '../../Models/User.js';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 dotenv.config();
